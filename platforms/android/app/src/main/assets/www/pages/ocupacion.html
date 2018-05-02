@@ -1,0 +1,47 @@
+<template>
+  <div class="page">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="back link">
+            <i class="icon icon-back"></i>
+            <span class="ios-only">Back</span>
+          </a>
+        </div>
+        <div class="title">Estado de ocupación de las Bodegas</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block block-strong">
+        En esta sección puedes comprobar el estado de ocupación de las bodegas.
+        <a class="actualizar-estado" @click="$root.recargarOcupacion()">Actualizar Estado</a>
+      </div>
+      <div id="recarga-ocupacion" class="block lista-ocupacion">
+        <ul>
+          {{#each bodegas}}
+            <li><strong class="nombre-ocupacion">{{nombre}}:</strong> <span class="uva-{{ocupacion}}"></span></li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="leyenda-ocupacion">
+        <p class="titulo-leyenda">Porcentaje de ocupación de la bodega:</p>
+        <ul>
+            <li>25% = <span class="uva-1"></span></li>
+            <li>50% = <span class="uva-2"></span></li>
+            <li>75% = <span class="uva-3"></span></li>
+            <li>Lleno = <span class="uva-4"></span></li>
+        </ul>
+        
+      </div>
+      
+    </div>
+  </div>
+
+
+</template>
+<script>
+  function recargarEstado() {
+    alert('ha recargado');
+  }
+  return {}
+</script>
