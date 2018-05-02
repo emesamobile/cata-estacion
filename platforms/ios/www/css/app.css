@@ -9,7 +9,8 @@
 }
 
 a,
-.md a {
+.md a,
+.ios a {
   color: #65283e;
 }
 
@@ -31,7 +32,8 @@ h6 {
   color: #454545;
 }
 
-.md .block-title {
+.md .block-title,
+.ios .block-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -105,6 +107,7 @@ img {
 .ios .button.button-fill-md,
 .ios .button.tab-link-active {
   background-color: #65283e;
+  color: #ffffff;
 }
 
 .md .button.button-active.active-state,
@@ -137,7 +140,9 @@ img {
 }
 
 .md .list.cata-list ul:before,
-.md .list.cata-list ul:after {
+.md .list.cata-list ul:after,
+.ios .list.cata-list ul:before,
+.ios .list.cata-list ul:after {
   content: none;
 }
 

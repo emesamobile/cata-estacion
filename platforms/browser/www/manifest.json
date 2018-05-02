@@ -8,7 +8,7 @@
   "author": "Emesa Software",
   "icons": [
     {
-      "src": "res/icon.png",
+      "src": "icon.png",
       "type": "image/png",
       "sizes": "undefinedxundefined"
     }

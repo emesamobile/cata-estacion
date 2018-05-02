@@ -22,11 +22,11 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <splash src="splash/ios/splash.png" platform="ios" width="320" height="480" />
+        <splash height="480" platform="ios" src="splash/ios/splash.png" width="320" />
     </platform>
     <icon src="icon.png" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <engine name="browser" spec="^5.0.3" />
-    <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
