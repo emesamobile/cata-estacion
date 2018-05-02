@@ -97,18 +97,29 @@ img {
 .md .button.button-active,
 .md .button.button-fill,
 .md .button.button-fill-md,
-.md .button.tab-link-active {
+.md .button.tab-link-active,
+.ios .toolbar,
+.ios .navbar,
+.ios .button.button-active,
+.ios .button.button-fill,
+.ios .button.button-fill-md,
+.ios .button.tab-link-active {
   background-color: #65283e;
 }
 
 .md .button.button-active.active-state,
 .md .button.button-fill-md.active-state,
 .md .button.button-fill.active-state,
-.md .button.tab-link-active.active-state {
+.md .button.tab-link-active.active-state,
+.ios .button.button-active.active-state,
+.ios .button.button-fill-md.active-state,
+.ios .button.button-fill.active-state,
+.ios .button.tab-link-active.active-state {
   background: #c52c64;
 }
 
-.md .item-content.item-link {
+.md .item-content.item-link,
+.ios .item-content.item-link {
   display: block;
   max-width: 225px;
   margin: 10px auto;

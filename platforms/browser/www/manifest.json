@@ -1,12 +1,18 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Cata",
-  "short_name": "Cata",
+  "name": "La Cata del Barrio de la Estación",
+  "short_name": "La Cata del Barrio de la Estación",
   "version": "com.emesasoftware.cata",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
-  "icons": [],
+  "description": "Toda la información sobre el evento de La Cata del Barrio de la Estación de Hario. \n        Podrás obtener en tiempo real información del estado de ocupación de cada bodega durante el evento.",
+  "author": "Emesa Software",
+  "icons": [
+    {
+      "src": "res/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html",
   "theme_color": "#2196f3"
 }
