@@ -614,5 +614,6 @@ a.actualizar-estado {
 .ios .navbar .title {
   display: block;
   width: 100%;
+  text-align: left;
 }
 
