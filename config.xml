@@ -2,8 +2,7 @@
 <widget id="com.emesasoftware.cata" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>La Cata del Barrio de la Estación</name>
     <description>
-        Toda la información sobre el evento de La Cata del Barrio de la Estación de Hario. 
-        Podrás obtener en tiempo real información del estado de ocupación de cada bodega durante el evento. 
+        Toda la información sobre el evento de La Cata del Barrio de la Estación de Haro.
     </description>
     <author email="rsainz@emesa.com" href="http://emesasoftware.com">
         Emesa Software
@@ -38,6 +37,8 @@
         <icon height="57" src="res/ios/icon.png" width="57" />
         <icon height="114" src="res/ios/icon@2x.png" width="114" />
         <icon height="72" src="res/ios/icon-72.png" width="72" />
+        <icon height="76" src="res/ios/icon-76.png" width="76" />
+        <icon height="1024" src="res/ios/icon-1024.png" width="1024" />
         <icon height="144" src="res/ios/icon-72@2x.png" width="144" />
         <icon height="29" src="res/ios/icon-small.png" width="29" />
         <icon height="58" src="res/ios/icon-small@2x.png" width="58" />
