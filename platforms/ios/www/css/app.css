@@ -61,16 +61,6 @@ p {
   display: none;
 }
 
-.ios .tabbar a,
-.ios .tabbar-labels a {
-  color: #ca8fa4;
-}   
-
-.ios .tabbar a.tab-link-active,
-.ios .tabbar-labels a.tab-link-active {
-
-}
-
 img {
   max-width: 100%;
 }
@@ -578,3 +568,27 @@ a.actualizar-estado {
   text-align: center;
   padding: 8px 0px;
 }
+
+.ios .right .icon.material-icons,
+.ios .left .icon.material-icons {
+  color: #ffffff;
+}
+
+.ios .tabbar a,
+.ios .tabbar-labels a {
+  color: #ca8fa4;
+}   
+
+.ios .tabbar a.tab-link-active,
+.ios .tabbar-labels a.tab-link-active {
+  color: #ffffff;
+}
+
+.ios .navbar-inner {
+  background-color: #65283e;
+}
+
+.ios .list ul {
+  background-color: transparent;
+}
+

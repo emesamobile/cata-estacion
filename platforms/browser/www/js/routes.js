@@ -73,7 +73,6 @@ routes = [
          // Hide Preloader
         app.preloader.hide();
 
-        console.log(JSON.parse(data));
         // Resolve route to load page
         resolve(
           {
