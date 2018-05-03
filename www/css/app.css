@@ -60,6 +60,17 @@ p {
 .ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
   display: none;
 }
+
+.ios .tabbar a,
+.ios .tabbar-labels a {
+  color: #ca8fa4;
+}   
+
+.ios .tabbar a.tab-link-active,
+.ios .tabbar-labels a.tab-link-active {
+
+}
+
 img {
   max-width: 100%;
 }

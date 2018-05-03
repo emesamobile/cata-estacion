@@ -6,13 +6,7 @@
   "version": "com.emesasoftware.cata",
   "description": "Toda la información sobre el evento de La Cata del Barrio de la Estación de Hario. \n        Podrás obtener en tiempo real información del estado de ocupación de cada bodega durante el evento.",
   "author": "Emesa Software",
-  "icons": [
-    {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "undefinedxundefined"
-    }
-  ],
+  "icons": [],
   "start_url": "index.html",
   "theme_color": "#2196f3"
 }

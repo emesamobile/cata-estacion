@@ -35,10 +35,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="icon.png" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <splash height="480" platform="ios" src="splash/ios/splash.png" width="320" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
