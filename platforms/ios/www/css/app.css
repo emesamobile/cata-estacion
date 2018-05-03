@@ -599,3 +599,11 @@ a.actualizar-estado {
 .ios .navbar .right {
   margin-right: 0px;
 }
+
+
+.ios .navbar .left i,
+.ios .navbar .right {
+  margin-left: -10px;
+}
+
+
