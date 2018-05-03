@@ -592,3 +592,10 @@ a.actualizar-estado {
   background-color: transparent;
 }
 
+.ios .navbar .left {
+  margin-right: 20px;
+}
+
+.ios .navbar .right {
+  margin-right: 0px;
+}
