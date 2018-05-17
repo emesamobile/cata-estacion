@@ -588,6 +588,17 @@ a.actualizar-estado {
   margin: 0 auto;
 }
 
+.redes-sociales {
+  margin-bottom: 25px;
+}
+
+.redes-sociales .fab {
+  font-size: 32px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
 .popup.popup-bodegas .botella-grande img {
   border: none;
 }
