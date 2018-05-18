@@ -651,3 +651,6 @@ a.actualizar-estado {
   text-align: left;
 }
 
+.ios .navbar .right a.popup-close {
+  color: #ffffff;
+}
