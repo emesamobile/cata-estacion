@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.emesasoftware.cata" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.emesasoftware.cata" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>La Cata del Barrio de la Estación</name>
     <description>
         Toda la información sobre el evento de La Cata del Barrio de la Estación de Haro.
@@ -55,8 +55,8 @@
         <splash height="2048" src="res/ios/splash/Default-Portrait@2x.png" width="1536" />
         <splash height="1536" src="res/ios/splash/Default-Landscape@2x.png" width="2048" />
     </platform>
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
 </widget>

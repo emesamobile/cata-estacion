@@ -569,6 +569,40 @@ a.actualizar-estado {
   padding: 8px 0px;
 }
 
+.informacion {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+  padding: 4px;
+  height: 40px;
+}
+
+.chef-web > a {
+  display: block;
+  margin: 15px auto 5px;
+  max-width: 180px;
+}
+
+.botella-grande {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.redes-sociales {
+  margin-bottom: 50px;
+}
+
+.redes-sociales .fab {
+  font-size: 32px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.popup.popup-bodegas .botella-grande img {
+  border: none;
+}
+
 .ios .right .icon.material-icons,
 .ios .left .icon.material-icons {
   color: #ffffff;

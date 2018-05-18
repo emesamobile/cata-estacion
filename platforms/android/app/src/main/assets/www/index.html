@@ -30,28 +30,30 @@
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar"></div>
     <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover theme-dark">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-inner">
-              <div class="title">El Evento</div>
+    <!--
+      <div class="panel panel-left panel-cover theme-dark">
+        <div class="view">
+          <div class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="title">El Evento</div>
+              </div>
             </div>
-          </div>
-          <div class="page-content">
-            <div class="block">
-              <ul>
-                  <li><a href="/vinos/">Vinos</a></li>
-                  <li><a href="/gastro/">Gastro</a></li>
-                  <li><a href="/programa/">Programa</a></li>
-                  <li><a href="/faq/">FAQ</a></li>
-                </ul>
+            <div class="page-content">
+              <div class="block">
+                <ul>
+                    <li><a href="/vinos/">Vinos</a></li>
+                    <li><a href="/gastro/">Gastro</a></li>
+                    <li><a href="/programa/">Programa</a></li>
+                    <li><a href="/faq/">FAQ</a></li>
+                  </ul>
 
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    -->
     <!-- Right panel with reveal effect-->
     <div class="panel panel-right panel-reveal theme-dark">
       <div class="view">
@@ -63,9 +65,12 @@
           </div>
           <div class="page-content">
             <ul>
-              <li><a href="/chefs/">Nuestros Chefs</a></li>
+              <li><a href="/vinos/" data-panel="right" class="panel-close">Vinos</a></li>
+              <li><a href="/gastro/"  data-panel="right" class="panel-close">Gastro</a></li>
+              <li><a href="/programa/" data-panel="right" class="panel-close">Programa</a></li>
               <li><a href="https://www.youtube.com/channel/UCMHFgkdJlAi2FaB7v86yHwg/videos" class="external" target="_system">Videos</a></li>
               <li><a href="https://www.flickr.com/photos/lacatadelbarriodelaestacion/albums" class="external" target="_system">Galerías</a></li>
+              <li><a href="/faq/" data-panel="right" class="panel-close">FAQ</a></li>
             </ul>
           </div>
         </div>
@@ -104,13 +109,15 @@
           <!-- Top Navbar -->
           <div class="navbar">
             <div class="navbar-inner">
-              <div class="left">
+              <!--
+                <div class="left">
                 <a href="#" class="link icon-only panel-open" data-panel="left">
                   <i class="icon f7-icons ios-only">menu</i>
                   <i class="icon f7-icons ios-only icon-ios-fill">menu</i>
                   <i class="icon material-icons">menu</i>
                 </a>
               </div>
+            -->
               <div class="title sliding">La Cata del Barrio de la Estación</div>
               <div class="right">
                 <a href="#" class="link icon-only panel-open" data-panel="right">
@@ -188,15 +195,31 @@
 
             
 
-            <div class="block-title">Evento y Medios</div>
-            <div class="block block-strong">
+            <div class="block-title">Sobre el evento</div>
+            <div class="block">
               <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="left">El Evento</a>
-                </div>
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Medios</a>
-                </div>
+                  <a href="#" class="informacion button button-raised button-fill panel-open" data-panel="right">
+                      <div class="item-inner">
+                          <div class="item-title">Información</div>
+                        </div>
+                  </a>
+              </div>
+            </div>
+              <div class="block-title">Redes Sociales</div>
+            <div class="block">
+              <div class="row redes-sociales">
+                  <div class="col-25">
+                    <a href="https://www.facebook.com/LaCataDelBarrioDeLaEstacion" class="external" target="_system"><i class="fab fa-facebook"></i></a>
+                  </div>
+                  <div class="col-25">
+                    <a href="https://twitter.com/catabarrioest" class="external" target="_system"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="col-25">
+                    <a href="https://www.youtube.com/channel/UCMHFgkdJlAi2FaB7v86yHwg" class="external" target="_system"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  <div class="col-25">
+                    <a href="https://www.instagram.com/catabarrioest/" class="external" target="_system"><i class="fab fa-instagram"></i></a>
+                  </div>
               </div>
             </div>
 
