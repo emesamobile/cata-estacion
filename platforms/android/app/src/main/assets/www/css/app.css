@@ -679,3 +679,16 @@ a.actualizar-estado {
   margin: 0 auto 20px;
   font-size: 18px;
 }
+
+.patrocinios img {
+  max-width: 125px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.block-title.peque {
+  font-size: 14px;
+}
+  
