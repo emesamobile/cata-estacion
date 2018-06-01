@@ -692,3 +692,16 @@ a.actualizar-estado {
   font-size: 14px;
 }
   
+.popup-jornadas li.pt20 {
+  padding-top: 10px;
+}
+
+h5 {
+  color: #65283e;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+
+.actividad {
+  color: #000000;
+}
